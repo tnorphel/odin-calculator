@@ -16,6 +16,9 @@ body {
     margin: 10px;
     font-family:'Courier New', Courier, monospace;
     background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    word-wrap: break-word;
 }
 .last{
     font-size: 22px;

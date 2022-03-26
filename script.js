@@ -108,7 +108,7 @@ function evaluate(e) {
             }
         }
         result = operate(Number(operand1), Number(operand2), operator);
-        previousDisplay.textContent = finalExpression + e.target.textContent;
+        previousDisplay.textContent = '';
         currentDisplay.textContent = result;
     }
 }
